@@ -1,0 +1,92 @@
+v 0.1.0.4 - 16.09.2007
+-------------------------
+- fixed: the plugin could crash on shutdown 
+- fixed: improved hotplugging support
+
+v 0.1.0.3 - 08.07.2006
+-------------------------
+- fixed: offline protocols could cause the plugin to send messages from the wrong connection
+- fixed: nickname cutoff didn't work
+- fixed: added an option to disable the protocol labels on the notification screen for messages & status events
+- fixed: linebreaks in messages sent from the lcd weren't formatted correctly (thanks to Quaker for reporting)
+
+v 0.1.0.2 - 03.07.2006
+-------------------------
+- fixed: the nickname cutoff offset was not saved (thanks to Shimakaze for reporting)
+
+v 0.1.0.1 - 02.07.2006
+-------------------------
+- fixed: a bug in the input control, that could cause miranda to freeze (thanks to QBUS for reporting)
+
+v 1.0.0 - 02.07.2006
+-------------------------
+- added: IRC support (only messages though, no events)
+- added: when applying configuration changes, the old screen layout morphs into the new one
+- added: a credit screen (somehow more effective than the readme I hope)
+- added: optional transition effects when changing screens
+- added: if you have multiple connections to the same medium in one section, you can choose the one
+you want to use when opening the chatscreen
+- added: chatscreen shows previously received/sent messages (from the active session only)
+- added: new filters to hide protocols from the contactlist
+- added: optional timestamps in the eventlog, the chatlog and on the notificationscreen
+- added: option to enable/disable grouped contactlist (metacontacts will always be displayed as "groups")
+- added: when a chatsession is active, notifications can be skipped for that contact (optional)
+- added: option to turn off the g15's backlight while the screensaver is active
+- added: option to use the volumewheel to scroll up and down
+- added: button to jump to the chatscreen from new notifications
+- added: contactlist can be displayed in two columns
+- added: replaced status strings on the contactlist with status icons
+- added: status icons to the chatscreen
+- added: events are now represented by small icons (eventlog & notificationscreen)
+- added: option to shorten user nicknames inside of notifications
+- fixed: changed the text of the msn/aim mail notification so that it makes sense
+- fixed: added case-insensitive alphabetical sorting as an additional condition for contacts
+- fixed: optimized the way contactlist & eventlog scroll
+- fixed: applet stays focused while replying even if automatic timed applet switching is enabled
+- fixed: wrong chatscreen layout when softkey labels where disabled
+- fixed: line breaks weren't displayed correctly in the eventlog
+- fixed: added scrollbar to messages on the notificationscreen
+- fixed: chatsession didn't update the status label when the contact signed off/on
+- fixed: metacontacts weren't counted as online when the contaclist was rebuild
+- fixed: some label issues (wrong cutoff positions, problems with multiline labels)
+- fixed: italic and bold fonts weren't handled correct (issues with wordwrapping, label cutoffs..)
+
+v 0.2.6 - 17.05.2006
+-------------------------
+- fixed: metacontacts that weren't assigned to a group,
+in combination with only one identity caused trillian to crash (thanks to TrAxX for reporting/testing!)
+
+v 0.2.5 - 15.05.2006
+-------------------------
+- fixed: connection & contact status notifications working again
+
+v 0.2.3 - 14.05.2006
+-------------------------
+- fixed: group online counters didn't show online metacontacts
+- changed: contactlist groups are only shown if more than one identity exists
+- fixed: contactlist should now be able to update automatically when adding/removing contacts
+- fixed: if a identy named "My Contacts" existed, it could get mixed up with the default identity
+- added: 2 new options to collapse or expand all groups when opening the contactlistscreen
+
+v 0.2.2 - 13.05.2006
+-------------------------
+- fixed: small typo resulted in some chatevents not being shown in the log
+
+v 0.2 - 13.05.2006
+-------------------------
+- fixed: a few small bugs in the event handling
+- fixed: htmlentities in contactnames where not converted correctly
+- added: multiple contactlists/identities support 
+- added: new option to display identityname on the notificationscreen
+
+v 0.1.2 - 09.05.2006
+-------------------------
+- fixed: some protocol events could cause trillian to crash
+
+v 0.1.1 - 09.05.2006
+-------------------------
+- fixed: contacts without groups caused trillian to crash
+
+v 0.1 - 09.05.2006
+-------------------------
+first public beta release.

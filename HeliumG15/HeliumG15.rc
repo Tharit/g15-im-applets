@@ -1,0 +1,138 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PAUSED              BITMAP                  "bitmap2.bmp"
+IDB_STAR                BITMAP                  "star.bmp"
+IDB_DOWN                BITMAP                  "data\\down.bmp"
+IDB_UP                  BITMAP                  "data\\up.bmp"
+IDB_MOVE                BITMAP                  "data\\move.bmp"
+IDB_LIST                BITMAP                  "data\\list.bmp"
+IDB_REW                 BITMAP                  "data\\prev.bmp"
+IDB_FFWD                BITMAP                  "data\\next.bmp"
+IDB_PLAYPAUSE           BITMAP                  "data\\play.bmp"
+IDB_PLAYING             BITMAP                  "data\\bitmap2.bmp"
+IDB_BACK                BITMAP                  "data\\bmp00001.bmp"
+IDB_MODE                BITMAP                  "data\\bmp00002.bmp"
+IDB_STAR2               BITMAP                  "data\\bmp00003.bmp"
+IDB_STAR3               BITMAP                  "data\\bmp00004.bmp"
+IDB_PLUS                BITMAP                  "data\\bmp00005.bmp"
+IDB_MINUS               BITMAP                  "data\\bmp00006.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIGDLG DIALOGEX 100, 100, 263, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HeliumG15 Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,149,215,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,206,215,50,14
+    GROUPBOX        "General options:",IDC_STATIC,7,7,249,38,BS_LEFT
+    GROUPBOX        """Now Playing"" screen:",IDC_STATIC,7,48,249,83,BS_LEFT
+    GROUPBOX        "Playlist screen:",IDC_STATIC,7,132,249,41,BS_LEFT
+    CTEXT           "HeliumG15 v0.8\n This is a work-in-progress beta release.\n Please send bug reports && feedback to:\n mail@mkleinhans.de",IDC_STATIC,61,177,139,36
+    CONTROL         "Display remaining time",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,25,71,118,12
+    CONTROL         "Display total time",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,25,81,118,12
+    LTEXT           "Duration:",IDC_STATIC,16,61,47,8
+    CONTROL         "Enable scroll by volume wheel",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,17,17,110,8
+    CONTROL         "Notify me when track changes",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,17,28,124,9
+    LTEXT           "Font:",IDC_STATIC14,145,143,72,9
+    CTEXT           "Sample",IDC_SAMPLE4,145,152,72,13,SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "...",IDC_CHOOSEFONT4,223,152,18,13,WS_DISABLED
+    LTEXT           "Artist font:",IDC_STATIC15,145,71,72,9
+    CTEXT           "Sample",IDC_SAMPLE5,145,79,72,13,SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "...",IDC_CHOOSEFONT5,223,79,18,13,WS_DISABLED
+    CONTROL         "Show Album",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,16,102,111,9
+    LTEXT           "Title/Album font:",IDC_STATIC16,145,98,72,9
+    CTEXT           "Sample",IDC_SAMPLE6,145,106,72,13,SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "...",IDC_CHOOSEFONT6,223,106,18,13,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

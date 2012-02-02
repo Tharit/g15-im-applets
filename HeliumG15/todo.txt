@@ -1,0 +1,15 @@
+list screen
+--------------
+
+
+
+now playing screen
+-------------------
+- set position
+- volume control
+
+
+
+
+- configuration form from lcd manager
+- autostart feature (erst aktivieren wenn bug gefixt ist, oder timer?!)
